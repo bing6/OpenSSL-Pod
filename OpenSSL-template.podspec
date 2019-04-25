@@ -69,7 +69,7 @@ Pod::Spec.new do |s|
     echo "Done."
   CMD
 
-  s.deployment_target   = "8.0"
+  s.ios.deployment_target   = "8.0"
   s.public_header_files = "opensslIncludes/openssl/*.h"
   s.vendored_libraries  = "lib/libcrypto.a", "lib/libssl.a"
 
