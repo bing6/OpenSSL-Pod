@@ -74,4 +74,7 @@ Pod::Spec.new do |s|
   s.vendored_libraries  = "lib/libcrypto.a", "lib/libssl.a"
 
   s.libraries             = 'crypto', 'ssl'
-  s.requires_arc          = false
+  s.requires_arc = false
+
+
+
